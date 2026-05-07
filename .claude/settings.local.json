@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(grep -E \"\\(^[^/]*$|src|config|package\\)\")",
+      "Bash(npx vite:*)",
+      "Bash(ls -la D:/cropcraft/*.json D:/cropcraft/.*ignore D:/cropcraft/.env*)",
+      "Bash(head:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5174)",
+      "Bash(curl *)",
+      "Bash(npm uninstall *)",
+      "Skill(claude-api)"
+    ]
+  }
+}
